@@ -37,7 +37,7 @@ const Pagination = (props) => {
         First
       </div>
       <div
-        className={`pagination__button ${(currentPage === 1||currentPage === 2) && 'pagination__button--disabled'}`}
+        className={`pagination__button ${(currentPage === 1) && 'pagination__button--disabled'}`}
         onClick={() => onPreviousPage()}
       >
         Previous
